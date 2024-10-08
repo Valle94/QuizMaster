@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fce283e6d2030d42a8c34fc2e538818, type: 3}
   m_Name: US History 1
   m_EditorClassIdentifier: 
-  question: "In 2015, America\u2019s \u2018National Hero Dog\u2019 award was won:
-    by a cat."
+  question: "In 2015, America\u2019s \u2018National Hero Dog\u2019 award was won
+    by:"
+  answers:
+  - the same dog twice
+  - a dog that had died
+  - a fake dog that didn't exist
+  - a cat
+  correctAnswerIndex: 4

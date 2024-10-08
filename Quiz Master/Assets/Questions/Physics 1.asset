@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Physics 1
   m_EditorClassIdentifier: 
   question: In April 2016, the Large Hadron Collider was shut down after a _______
-    fell into it. (weasel)
+    caused major electrical damage.
+  answers:
+  - weasel chewing through cables
+  - misplaced high-power magnet
+  - tripped circuit breaker from a toaster
+  - country-wide power outage
+  correctAnswerIndex: 0
