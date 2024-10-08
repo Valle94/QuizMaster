@@ -15,7 +15,7 @@ MonoBehaviour:
   question: 'Neptune was discovered:'
   answers:
   - by astronomers while traveling by sea
-  - within an hour of astronomers starting to look for it.
-  - accidentally by astronomers looking for another planet
+  - within an hour of astronomers starting to look for it
+  - accidentally by astronomers looking for Pluto
   - by an astronomer named Neptunalia
   correctAnswerIndex: 2
