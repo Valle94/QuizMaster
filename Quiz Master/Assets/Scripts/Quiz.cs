@@ -26,6 +26,11 @@ public class Quiz : MonoBehaviour
     [SerializeField] Image timerImage;
     Timer timer;
 
+    [Header("Audio")]
+    [SerializeField] AudioClip correctAnswerSFX;
+    [SerializeField] AudioClip incorrectAnswerSFX;
+    bool hasAnswered = false;
+
     void Start()
     {
         timer = FindObjectOfType<Timer>();
@@ -65,6 +70,7 @@ public class Quiz : MonoBehaviour
             questionText.text = "Correct!";
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            GetComponent<AudioSource>().PlayOneShot(correctAnswerSFX);
         }
         else
         {
@@ -73,6 +79,11 @@ public class Quiz : MonoBehaviour
             questionText.text = "Sorry, the correct answer was;\n" + correctAnswer;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            if (hasAnswered == false)
+            {
+                GetComponent<AudioSource>().PlayOneShot(incorrectAnswerSFX);
+            }
+            hasAnswered = true;
         }
     }
 
