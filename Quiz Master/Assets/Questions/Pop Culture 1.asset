@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce283e6d2030d42a8c34fc2e538818, type: 3}
+  m_Name: Pop Culture 1
+  m_EditorClassIdentifier: 
+  question: The film "The Sound of Music" was so popular in South Korea, one movie
+    theater did what to take advantage of it's popularity?
+  answers:
+  - Paid to have the movie dubbed in Korean
+  - Cut out all of the musical numbers
+  - Hired a band to play along with the film
+  - Showed the film 24 hours a day
+  correctAnswerIndex: 1
+  explaination: 'The theater owner decided that by cutting out all of the musical
+    numbers, the film could be shown more times in a day. '

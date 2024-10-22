@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fce283e6d2030d42a8c34fc2e538818, type: 3}
   m_Name: Geography 1
   m_EditorClassIdentifier: 
-  question: The Dyslexia Research Center is found where in the UK?
+  question: The Dyslexia Research Trust is found where in the UK?
   answers:
   - Writers' Way, Scotland
   - Great Bookham, England
   - Reading, England
   - Fiction, England
   correctAnswerIndex: 2
+  explaination: The Dyslexia Research Trust runs a busy clinic in Reading (pronounced
+    Red-ing), offering appointments mainly free of charge for the diagnosis and treatment
+    of reading difficulties.

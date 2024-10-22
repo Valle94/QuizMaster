@@ -82,10 +82,11 @@ public class Quiz : MonoBehaviour
     void DisplayAnswer(int index)
     {
         Image buttonImage;
+        string explanation = currentQuestion.GetExplaination();
 
         if(index == currentQuestion.GetCorrectAnswerIndex())
         {
-            questionText.text = "Correct!";
+            questionText.text = "Correct! " + explanation;
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
             GetComponent<AudioSource>().PlayOneShot(correctAnswerSFX);
@@ -95,7 +96,7 @@ public class Quiz : MonoBehaviour
         {
             correctAnswerIndex = currentQuestion.GetCorrectAnswerIndex();
             string correctAnswer = currentQuestion.GetAnswer(correctAnswerIndex);
-            questionText.text = "Sorry, the correct answer was;\n" + correctAnswer;
+            questionText.text = "Incorrect. " + explanation;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
             if (hasAnswered == false)

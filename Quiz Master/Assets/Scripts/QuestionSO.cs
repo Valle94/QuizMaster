@@ -10,6 +10,8 @@ public class QuestionSO : ScriptableObject
     [SerializeField] string question = "Enter new question here";
     [SerializeField] string[] answers = new string[4];
     [SerializeField] int correctAnswerIndex;
+    [TextArea(2, 6)]
+    [SerializeField] string explanation;
 
     public string GetQuestion()
     {
@@ -24,5 +26,10 @@ public class QuestionSO : ScriptableObject
     public int GetCorrectAnswerIndex()
     {
         return correctAnswerIndex;
+    }
+
+    public string GetExplaination()
+    {
+        return explanation;
     }
 }

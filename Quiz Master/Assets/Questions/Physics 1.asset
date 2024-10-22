@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fce283e6d2030d42a8c34fc2e538818, type: 3}
   m_Name: Physics 1
   m_EditorClassIdentifier: 
-  question: In April 2016, the Large Hadron Collider was shut down after a _______
-    caused major electrical damage.
+  question: In April 2016, the Large Hadron Collider (LHC) located in Switzerland
+    was shut down after a _______ caused major electrical damage.
   answers:
   - weasel chewing through cables
   - misplaced high-power magnet
   - tripped circuit breaker from a toaster
   - country-wide power outage
   correctAnswerIndex: 0
+  explaination: 'In April 2016, a weasel chewed into one of the electrical transformers
+    for the LHC causing a short circuit which shut down operations for multiple days. '

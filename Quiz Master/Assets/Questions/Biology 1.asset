@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce283e6d2030d42a8c34fc2e538818, type: 3}
+  m_Name: Biology 1
+  m_EditorClassIdentifier: 
+  question: What type of animal can you eat without killing it?
+  answers:
+  - Octopus
+  - Crab
+  - Lobster
+  - Clam
+  correctAnswerIndex: 0
+  explaination: 'While all of these are known to be able to regrow limbs, the Florida
+    stone crab in particular can be harvested only for its claws, which will regenerate
+    in about a year. '
