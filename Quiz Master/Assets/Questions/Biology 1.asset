@@ -19,6 +19,6 @@ MonoBehaviour:
   - Lobster
   - Clam
   correctAnswerIndex: 0
-  explaination: 'While all of these are known to be able to regrow limbs, the Florida
-    stone crab in particular can be harvested only for its claws, which will regenerate
-    in about a year. '
+  explanation: 'While all of the animals are known to have some regenerative abilities,
+    the Florida Stone Crab in particular is known for being harvested for its claws,
+    which will typically re-grow in a year. '

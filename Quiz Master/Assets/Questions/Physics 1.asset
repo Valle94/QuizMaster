@@ -20,5 +20,5 @@ MonoBehaviour:
   - tripped circuit breaker from a toaster
   - country-wide power outage
   correctAnswerIndex: 0
-  explaination: 'In April 2016, a weasel chewed into one of the electrical transformers
-    for the LHC causing a short circuit which shut down operations for multiple days. '
+  explanation: 'The weasel chewed through a circuit breaker cable and caused the
+    particle accelerator to be shut down for multiple weeks for repairs and recalibration. '

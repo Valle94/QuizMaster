@@ -20,5 +20,6 @@ MonoBehaviour:
   - Hired a band to play along with the film
   - Showed the film 24 hours a day
   correctAnswerIndex: 1
-  explaination: 'The theater owner decided that by cutting out all of the musical
-    numbers, the film could be shown more times in a day. '
+  explanation: 'The theater owner decided to cut out all of the musical numbers in
+    order to shorten the runtime of the film, allowing it to be show more times in
+    a day. '

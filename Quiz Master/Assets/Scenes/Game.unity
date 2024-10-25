@@ -2414,6 +2414,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 117e63242d911a246b1678d5b17496c1, type: 2}
   - {fileID: 11400000, guid: 6c51e2ac43549cc43bc6d6769fba21cf, type: 2}
   - {fileID: 11400000, guid: 5ffadfef578e2c448a92cfdad2640281, type: 2}
+  - {fileID: 11400000, guid: bf247dabb57b82246acb8e0bf802f8d4, type: 2}
+  - {fileID: 11400000, guid: 2108fa0e302cb7e4b8e9ef4a0bbf3234, type: 2}
+  - {fileID: 11400000, guid: db08c0b19ab0f3d4a95fdb3e6ca796a3, type: 2}
+  - {fileID: 11400000, guid: 41898f146a5c5984cba8fa4674f0fb1e, type: 2}
   answerButtons:
   - {fileID: 2052120698}
   - {fileID: 420346983}

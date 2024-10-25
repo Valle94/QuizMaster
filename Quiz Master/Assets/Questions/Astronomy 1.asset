@@ -19,6 +19,6 @@ MonoBehaviour:
   - accidentally by astronomers looking for Pluto
   - by an astronomer named Neptunalia
   correctAnswerIndex: 1
-  explaination: On September 23, 1846, German astronomer Johann Gottfried Galle and
-    his assistant Heinrich Louis d'Arrest discovered Neptune within an hour of searching
-    at the Berlin Observatory, based on a prediction by another astronomer, Le Verrier.
+  explanation: 'French mathematician Le Verrier calculated Neptune''s predicted position,
+    and within an hour of passing on his prediction to German astronomer Galle, the
+    planet was located within an hour. '
