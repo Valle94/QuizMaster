@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fce283e6d2030d42a8c34fc2e538818, type: 3}
+  m_Name: Quiz Question 1 (Lists vs Arrays)
+  m_EditorClassIdentifier: 
+  question: What is the main difference between arrays and lists in C#?
+  answers:
+  - Arrays are dynamic, while lists are fixed in size.
+  - Arrays store only integers, while lists store strings.
+  - Arrays are fixed in size, while lists can grow or shrink dynamically.
+  - Lists are faster than arrays for all operations.
+  correctAnswerIndex: 2
+  explanation: 'While you can change the information that''s in an array, it must
+    always be the same length. Lists can be shortened or lengthened by adding or
+    removing entries. '

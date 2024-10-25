@@ -220,10 +220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1054,10 +1054,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1143,7 +1143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 820, y: 340}
+  m_AnchoredPosition: {x: -780, y: -180}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &644427296
@@ -1193,8 +1193,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2190,8 +2190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 207e22987af1c5e4b92c757fa19f6e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 10
-  timeToShowCorrectAnswer: 5
+  timeToCompleteQuestion: 30
+  timeToShowCorrectAnswer: 10
   loadNextQuestion: 1
   isAnsweringQuestion: 0
   fillFraction: 0
@@ -2244,8 +2244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 870, y: 450}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 780, y: -180}
+  m_SizeDelta: {x: 180, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960887120
 MonoBehaviour:
@@ -2335,10 +2335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2408,12 +2408,12 @@ MonoBehaviour:
   questionText: {fileID: 1561043141}
   questions:
   - {fileID: 11400000, guid: 9dfeee684c5430d4cb620218e7bccd4b, type: 2}
+  - {fileID: 11400000, guid: 6a0c4c618fb0812489a5281fb41d6f8c, type: 2}
   - {fileID: 11400000, guid: d24c28a2b1791a14498f8750b6e66c02, type: 2}
   - {fileID: 11400000, guid: 8719dcb45e1cc5c418d0da7cd313ee44, type: 2}
   - {fileID: 11400000, guid: 117e63242d911a246b1678d5b17496c1, type: 2}
-  - {fileID: 11400000, guid: 5ffadfef578e2c448a92cfdad2640281, type: 2}
-  - {fileID: 11400000, guid: 6a0c4c618fb0812489a5281fb41d6f8c, type: 2}
   - {fileID: 11400000, guid: 6c51e2ac43549cc43bc6d6769fba21cf, type: 2}
+  - {fileID: 11400000, guid: 5ffadfef578e2c448a92cfdad2640281, type: 2}
   answerButtons:
   - {fileID: 2052120698}
   - {fileID: 420346983}

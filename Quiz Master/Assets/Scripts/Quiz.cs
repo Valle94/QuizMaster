@@ -76,7 +76,7 @@ public class Quiz : MonoBehaviour
         DisplayAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
-        scoreText.text = "Score: " + scoreKeeper.CalculateScore() + "%";
+        scoreText.text = "Score " + scoreKeeper.CalculateScore() + "%";
     }
 
     void DisplayAnswer(int index)
