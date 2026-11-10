@@ -2191,7 +2191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToCompleteQuestion: 30
-  timeToShowCorrectAnswer: 10
+  timeToShowCorrectAnswer: 2
   loadNextQuestion: 1
   isAnsweringQuestion: 0
   fillFraction: 0
